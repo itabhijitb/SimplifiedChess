@@ -36,9 +36,10 @@ Each of the subsequent  lines describes the type and location of a Black piece.
 
 ## Constraints
 
-1 <= g <= 1000
-1 <= w, b <= 7
-1 <= m <= 6
+    1 <= g <= 1000
+    1 <= w, b <= 7
+    1 <= m <= 6
+
 Each player has exactly  Queen, at most  Pawns, at most  Rooks, and at most  minor pieces (i.e., a Bishop and/or Knight).
 It is guaranteed that the initial location of each chess piece is distinct.
 No pawn is initially placed in a row where it would promote.
