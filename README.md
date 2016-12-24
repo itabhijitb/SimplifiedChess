@@ -40,7 +40,7 @@ Each of the subsequent  lines describes the type and location of a Black piece.
     1 <= w, b <= 7
     1 <= m <= 6
 
-Each player has exactly  Queen, at most  Pawns, at most  Rooks, and at most  minor pieces (i.e., a Bishop and/or Knight).
+Each player has exactly  1 Queen, at most  2 Pawns, at most 2 Rooks, and at most2  minor pieces (i.e., a Bishop and/or Knight).
 It is guaranteed that the initial location of each chess piece is distinct.
 No pawn is initially placed in a row where it would promote.
 
@@ -66,4 +66,4 @@ We play the following  game of simplified chess:
 
 ![Example](https://s3.amazonaws.com/hr-challenge-images/0/1482224890-c016aaa945-simplified-chess-ii-.png)
 
-White wins by moving their Pawn to  and capturing Black's Queen, so we print YES on a new line.
+White wins by moving their Pawn to A4 and capturing Black's Queen, so we print YES on a new line.
